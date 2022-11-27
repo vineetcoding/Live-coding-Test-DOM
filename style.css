@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 102, 0);
+}
+h1, h3, #inputDiv, #main, #error{
+    text-align: center;
+    /* padding: 1%; */
+    color: aliceblue;
+}
+h3{
+    padding-top: 5%;
+}
+
+button{
+    border: green;
+    background-color: green;
+    border-radius: 7px;
+    color: aliceblue;
+    margin: 2%;
+    padding: 5px;
+    font-size: large;
+}
+#product{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 100%;
+}
+#list{
+    /* border: 1px black solid; */
+    width: 10%;
+    padding: 2%;
+}
