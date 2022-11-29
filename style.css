@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(255, 102, 0);
+    background-color: goldenrod;
 }
 h1, h3, #inputDiv, #main, #error{
     text-align: center;
@@ -24,6 +24,9 @@ button{
     font-size: large;
 }
 #product{
+    /* border: 1px solid black; */
+    margin: 10%;
+    margin-top: initial;
     display: flex;
     flex-wrap: wrap;
 }
@@ -31,7 +34,13 @@ img{
     width: 100%;
 }
 #list{
-    /* border: 1px black solid; */
-    width: 10%;
+    border: 1px solid gray;
+    width: 15.81%;
     padding: 2%;
+}
+.del{
+    background-color: red;
+}
+#error{
+    color: red;
 }
